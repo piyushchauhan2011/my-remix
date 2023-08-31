@@ -13,5 +13,8 @@
     "turbo": "latest"
   },
   "packageManager": "pnpm@8.6.10",
-  "name": "my-remix"
+  "name": "my-remix",
+  "engines": {
+    "node": ">=18.0.0"
+  }
 }

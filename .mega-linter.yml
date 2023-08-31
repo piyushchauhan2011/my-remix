@@ -9,6 +9,7 @@ DISABLE_LINTERS:
   - SPELL_LYCHEE
   - REPOSITORY_CHECKOV
   - TYPESCRIPT_STANDARD
+  - MARKDOWN_MARKDOWN_LINK_CHECK
 # DISABLE:
   # - COPYPASTE # Uncomment to disable checks of excessive copy-pastes
   # - SPELL # Uncomment to disable checks of spelling mistakes

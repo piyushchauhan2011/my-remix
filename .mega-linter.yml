@@ -18,7 +18,7 @@ FILEIO_REPORTER: false
 # DISABLE_ERRORS: true # Uncomment if you want MegaLinter to detect errors but not block CI to pass
 
 # JAVASCRIPT_ES_CLI_EXECUTABLE: ["pnpm"]
-PRE_COMMANDS:
+JAVASCRIPT_ES_PRE_COMMANDS:
   - command: npm install -g pnpm
     cwd: "root"
   - command: pnpm --filter=eslint-config-custom install

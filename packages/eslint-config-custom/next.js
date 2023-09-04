@@ -19,7 +19,7 @@ module.exports = {
     "@vercel/style-guide/eslint/react",
     "@vercel/style-guide/eslint/next",
     "eslint-config-turbo",
-    "eslint-config-next",
+    "next",
     "eslint-config-prettier",
   ].map(require.resolve),
   parserOptions: {
